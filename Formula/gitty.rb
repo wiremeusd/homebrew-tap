@@ -11,7 +11,7 @@ class Gitty < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/wiremeusd/gitty/releases/download/v0.1.0/gitty_0.1.0_darwin_amd64.tar.gz"
-    sha256 "eccb47ffae95110f60fc8c81fe6963dce7f1fb8d5da3bbe2c13d302d69ddbe1c"
+    sha256 "2a57430286373bc5a08a7937be985767aac74d61ca96cf1c474a7c6d5630ccad"
 
     define_method(:install) do
       bin.install "gitty"
@@ -19,7 +19,7 @@ class Gitty < Formula
   end
   if Hardware::CPU.arm?
     url "https://github.com/wiremeusd/gitty/releases/download/v0.1.0/gitty_0.1.0_darwin_arm64.tar.gz"
-    sha256 "20a69633d1cf3632573118e8641c86b163fbe33bf29ec2fb521353d18e73490f"
+    sha256 "49c6931a85ff0cb9f8596823b8f82483129253a657b7643d1bd9f2369cace6e0"
 
     define_method(:install) do
       bin.install "gitty"
