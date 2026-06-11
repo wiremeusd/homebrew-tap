@@ -4,22 +4,22 @@ cask "gitty" do
 
   on_macos do
     on_intel do
-      sha256 "24dcebc418476a5b346c6f0e0cf715865f8e6d2c51fb812ec77b767f21dc1ad5"
+      sha256 "17c7a2e70a80628f4efa6ff6db0958ce0ef5802e7be0a17c6c3dfa27af8bb549"
       url "https://github.com/wiremeusd/gitty/releases/download/v#{version}/gitty_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "54388a871a449801c683b7593f9bee6450bc9db9e0d4469bb28c70f49a62a9cd"
+      sha256 "656269f433d138d07643d38761ad9d8be8107e6bee536f220c3276c91b55222c"
       url "https://github.com/wiremeusd/gitty/releases/download/v#{version}/gitty_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "a139afeb3ee5a8ecb807183ead6e5185378888060f9a23143f08634e296dff18"
+      sha256 "2098a0140e6b1d005242b17031d302b14e284b638bc0f70946f2bcfe403cd4d4"
       url "https://github.com/wiremeusd/gitty/releases/download/v#{version}/gitty_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "2adc2d24dd175d724a0ab7223edbea1e021ef8a0d635e0ef8ab5fc15e0165c8c"
+      sha256 "92264325fd0ee00b8b4bc61336fd8e791d8a29d0047e91e8c882e6f6927442f5"
       url "https://github.com/wiremeusd/gitty/releases/download/v#{version}/gitty_linux_arm64.tar.gz"
     end
   end
